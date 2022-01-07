@@ -24,6 +24,7 @@ h1{
 .flexibleContainer{
     display: flex;
     padding: 50px;
+    margin-top: -75px;
 }
 .halfWidth{
     width: 50%;
@@ -42,4 +43,37 @@ h1{
     padding-left: 3%;
 
     
+}
+
+.text-align-center{
+    text-align: center;
+}
+.mission{
+    background-color: lightblue;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 25px;
+}
+
+.vision{
+    background-color: lightpink;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 25px;
+}
+
+.goals{
+    background-color: lightyellow;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 25px;
+}
+
+.one-third-width{
+    width: 30%;
+    justify-content: left;
+}
+
+.one-third-width img{
+    width: 50%;
 }
