@@ -3,10 +3,15 @@ body {
     margin: 100px;
 }
 
-.top-section {
+.top-section-withnav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
+}
+
+.top-section {
+    display: flex;
 }
 
 .navbar-text {
@@ -17,4 +22,17 @@ body {
     text-decoration: none;
     color: #422C29;
     padding: 10px;
+}
+
+.button {
+    background-color: #E02C6D;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.button h4 {
+    display: inline;
+    padding-right: 5px;
 }
